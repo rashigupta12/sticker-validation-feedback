@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f0f0f0; /* Light mode background color */
+  color: #000; /* Light mode text color */
+}
+
+/* Dark mode styles */
+.dark body {
+  background-color: rgb(31, 41, 55); /* Dark mode background color */
+  color: #f0f0f0; /* Dark mode text color */
+}
+
+
+.custom-top-negative {
+  top: -50px;
+}
+
+.custom-right-positive {
+  right: 30px;
+}
+
+
